@@ -2,7 +2,6 @@
 namespace Cherryio;
 
 use GuzzleHttp\Client;
-use WebSocket\Client as WebSocketClient;
 class Cherryio {
     private $url = "http://localhost:6001/publish";
     private $client;
