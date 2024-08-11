@@ -1,0 +1,21 @@
+{
+    "name": "bright-webb/cherryio-php-sdk",
+    "description": "Cherryio PHP SDK provides a straightforward interface for integrating with the Cherryio Websocket Server from PHP applications. This package simplifies real time communcation by offering essential features for subscribing to channels, broadcasting messages and managing connections.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cherryio\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bright-webb",
+            "email": "webilorbright@outlook.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "textalk/websocket": "^1.5"
+    }
+}
