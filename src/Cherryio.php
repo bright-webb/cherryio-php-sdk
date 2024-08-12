@@ -3,7 +3,7 @@ namespace Cherryio;
 
 use GuzzleHttp\Client;
 class Cherryio {
-    private $url = "http://localhost:6001/publish";
+    private $url = "http://3.83.240.184:6001/publish";
     private $client;
     private $apiKey;
     private $secretKey;
