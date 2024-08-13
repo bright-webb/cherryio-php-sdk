@@ -44,7 +44,7 @@ class Cherryio {
 
 
     // Subscribe to channel
-    public function subscribe($channel){
+    public function channel($channel){
         $this->channel = $channel;
         return $this;
     }
